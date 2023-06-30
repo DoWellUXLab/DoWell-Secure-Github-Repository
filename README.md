@@ -34,10 +34,10 @@ Include the following payload data in the request body:
 
 3. To set up a webhook for the Secure Repository API, follow the standard webhook creation process provided by Github. Configure the webhook's payload URL to point to url recieved from the repository-clone endpoint within your application to handle the backup events triggered by the webhook.
 
-4. To retrieve backup reports using the Secure Repository API, send a GET request to the following endpoint: GET ```/get-backup-reports/<api_key>/```.
+4. To retrieve backup reports using the Secure Repository API, send a GET request to the following endpoint: GET ```/backup-reports/<api_key>/```.
 Replace <api_key> with the actual API key associated with your backups. This request will fetch the backup reports containing valuable information such as timestamps, repository names, and any encountered errors during the backup process.
 
-5. To obtain repository reports through the Secure Repository API, issue a GET request to the following endpoint: GET ```/get-repository-reports/<api_key>/```.
+5. To obtain repository reports through the Secure Repository API, issue a GET request to the following endpoint: GET ```/repository-reports/<api_key>/```.
 Replace <api_key> with the appropriate API key linked to your repositories. This request will provide you with an overview of each repository's status, including details like commit count, branch information, and contributors.
 
 ## Documentation and Support

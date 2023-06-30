@@ -27,10 +27,10 @@ Include the following payload data in the request body:
     {
         "repository_url": "<repository_url>",
         "api_key": "<api_key>",
-        "services": "<services>"
+        "services": "DoWell Secure Repository"
     }
     ```
-    Replace the repository_url value with the URL of the repository you want to clone. Ensure you provide a valid api_key to authenticate your request. The services field indicates the specific backup service you want to utilize.
+    Replace the repository_url value with the URL of the repository you want to clone. Ensure you provide a valid api_key to authenticate your request. The services field indicates the service you want to utilize i.e "DoWell Secure Repository".
 
 3. To set up a webhook for the Secure Repository API, follow the standard webhook creation process provided by Github. Configure the webhook's payload URL to point to url recieved from the repository-clone endpoint within your application to handle the backup events triggered by the webhook.
 

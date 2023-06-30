@@ -25,9 +25,9 @@ Getting Started with the Secure Repository API's Key Features:
 Include the following payload data in the request body:
     ```json
     {
-        "repository_url": <repository_url>,
-        "api_key": <api_key>,
-        "services": <services>
+        "repository_url": "<repository_url>",
+        "api_key": "<api_key>",
+        "services": "<services>"
     }
     ```
     Replace the repository_url value with the URL of the repository you want to clone. Ensure you provide a valid api_key to authenticate your request. The services field indicates the specific backup service you want to utilize.

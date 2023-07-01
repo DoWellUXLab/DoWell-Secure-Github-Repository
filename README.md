@@ -1,4 +1,4 @@
-# DoWell-Secure-Repository
+# DoWell Secure Github Repository
 
 
 Welcome to the Secure Repository API!. This API seamlessly integrates with Github's webhooks, enabling automatic backups of code repositories. It provides real-time backups triggered by specified events, ensuring data protection. The API offers customization options, allowing developers to define backup frequency and scope. With robust encryption and disaster recovery mechanisms, the Secure Repository API ensures the integrity and availability of your code backups.
